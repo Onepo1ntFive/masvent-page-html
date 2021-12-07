@@ -1,0 +1,75 @@
+/**
+ * @package    AcyMailing for Joomla!
+ * @version    4.2.0
+ * @author     acyba.com
+ * @copyright  (C) 2009-2013 ACYBA S.A.R.L. All rights reserved.
+ * @license    GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */div.acymailing_module, .acymailing_module div{
+	padding: 0 !important;
+	margin: 0 !important;
+	border-style:none !important;
+	
+}
+
+table.acymailing_form{
+	/*margin:auto;*/
+	border:1px solid #FFF !important;
+	line-height:28px;
+}
+.acymailing_module p{margin-bottom: 6px;}
+
+.acyfield_email input{font-size:14px;border:none !important;background-color: #55ae00;padding-left:5px;box-sizing:border-box;opacity:0.5;}
+
+a.acymailing_togglemodule{
+	display : block;
+	font-size:16px;
+}
+
+.acymailing_mootoolsbutton p{
+	text-align:center;
+}
+
+.acysubbuttons{
+	text-align:center;
+	background-color:#FFF;
+}
+.acysubbuttons input{background:#FFF;color:#333 !important;line-height:21px;margin-right: -1px;}
+
+img.captchaimagemodule{
+	border:1px solid #dddddd;
+	float: left;
+}
+
+.captchakeymodule .captchafield{
+	margin-top:3px;
+	margin-left:2px;
+}
+
+.acymailing_fulldiv tr, .acymailing_fulldiv td{
+	border:0px;
+}
+
+.acymailing_module_form td {
+	padding-bottom: 0px;
+}
+
+div.acymailing_module_error {
+	color: #400;
+	background-color: #fdd;
+	padding: 1em !important;
+	margin-bottom:10px;
+}
+
+div.acymailing_module_success {
+	color: #130;
+	background-color: #dfc;
+	padding: 1em !important;
+	z-index: 10;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.acymailing_module_form .acymailing_introtext{
+	 padding-bottom:10px;
+	 display:block;
+}
