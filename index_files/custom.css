@@ -1996,6 +1996,7 @@ input[type='button'].filters__btn {
     vertical-align: middle;
 }
 .steps .steps__icon img {
+    padding-left: 5px;
     display: block;
     width: 40px;
 }
