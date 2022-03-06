@@ -2028,11 +2028,11 @@ input[type='button'].filters__btn {
         width: 50%;
     }
     .steps .steps__pic::before {
-        border-width: 50px 20px;
         top: 50%;
         left: auto;
+        border-width: 50px 20px;
         transform: translateY(-50%);
-        border-bottom-color: transparent;
+        border-top-color: transparent;
     }
     .steps .steps__item:nth-child(2n + 1) .steps__pic {
         order: 1;
@@ -2082,6 +2082,7 @@ input[type='button'].filters__btn {
     border-top: 1px solid #c4c4c4;
 }
 .collpapse .collpapse__title {
+    padding-right: 40px;
     padding-top: 13px;
     padding-bottom: 13px;
     cursor: pointer;
